@@ -1,0 +1,73 @@
+/* common style*/
+body{
+    background-color: rgb(228, 228, 245);
+}
+.container{
+    width:800px;
+    
+    background-color: #ffff;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.main-titel{
+    color: rgb(70, 70, 211);
+}
+
+/*players style*/
+.top-players{
+    margin: 50px 25px;
+}
+.playes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.player{
+    display:flex;
+    
+}
+
+.player img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+.player h3{
+    margin-left: 16px;
+}
+hr{
+    width: 670px;
+   border: 1px solid gray;
+
+    
+}
+/*--------------------
+top blogs
+----------------------*/
+.top-blog .main-titel{
+    margin-left: 25px;
+}
+.thumnel img{
+    height: 100px;
+    width: 150px;
+    margin-left: 25px;
+}
+.tumnel-titel{
+    margin-left: 10px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+a{
+    text-decoration: none;
+}
+.blog{
+    display: flex;
+}
